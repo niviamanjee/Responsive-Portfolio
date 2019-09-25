@@ -280,3 +280,133 @@ section {
   width: 18vw;
   height: 20vh;
 }
+
+/* End of "Portfolio" page specifics and beginning of media queries */
+
+@media screen and (max-width: 640px) {
+  /* 640px width for "About Me" page */
+  body {
+    width: 100%;
+    background: white;
+  }
+  header { 
+    position: static;
+    width: 100vw;
+    background-color: #1C2833;
+  }
+  h1 {
+    padding: 5%;
+    margin-left: 15vw;
+    padding-right: 17px;
+  }
+  .name-logo {
+    width: 100%;
+    margin-top: 0%;
+    padding-right: 14vw;
+  }
+  .nav {
+    width: 100%;
+    margin-top: 0vh;
+    margin-right: -10vw;
+    background-color: white;
+    padding: 11px;
+    padding-left: 14vw;
+    padding-right: 10vw;
+  }
+  .content {
+    width: 100vw;
+    margin-left: 0%;
+    padding-bottom: 40vh;
+    padding-right: 12vw;
+  }
+  #headshot {
+    width: 250px;
+    height: 300px;
+    margin-top: 8px;
+    margin-left: 29vw;
+    position: absolute;
+    z-index: 1;
+    display: block;
+  }
+  h2 {
+    font-size: 120%;
+    margin-top: 47vh;
+    margin-right: 7vw;
+    display: block;
+  }
+  #about-me p {
+    font-size: 85%;
+    margin-left: 11vw;
+  }
+  footer {
+    margin-top: 0%;
+    width: 100vw;
+    padding: 9%;
+  }
+  footer div {
+    margin-left: -6vw;
+  } 
+
+  /* 640px width for "Contact" page */
+
+  .main-box {
+    height: 64vh;
+    margin-top: 44px;
+    padding: 0%;
+    margin-bottom: 24vw;
+  }
+  .contact-box {
+    height: 40vh;
+    font-size: 75%;
+  }
+  .contact-content {
+    margin-top: 0%;
+    padding: 0%;
+  }
+  .main-box h2 {
+    margin-top: 6%;
+    margin-bottom: 3%;
+    padding: 0%;
+    height: 5vh;
+  
+  
+  #name, #email {
+    width: 75vw;
+    height: 100px; 
+    margin-right: 10vw;
+    margin-bottom: 0%;
+    font-size: 140%;
+  }
+  #message {
+    margin-bottom: 5vh;
+    font-size: 140%;
+  }
+    
+  .button {
+    width: 100px;
+    margin-top: 5vh;
+    font-size: 95%;
+    padding: 5%;
+    margin-left: 18vw;
+  }
+
+  /* 640px width for "Portfolio" page */
+  .p-content1 {
+    width: 100vw; 
+  }
+}
+
+ 
+
+
+@media screen and (max-width: 768px) {
+  /* 768px width for "About Me" page */
+
+  .nav {
+    margin-top: 0vh;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+}

@@ -1,0 +1,63 @@
+/* 640px width for "About Me" page */
+  body {
+    width: 100%;
+    background: white;
+  }
+  header { 
+    position: static;
+    width: 120vw;
+    background-color: #1C2833;
+  }
+  h1 {
+    padding: 5%;
+    margin-left: 23vw;
+    padding-right: 17px;
+  }
+  .name-logo {
+    width: 100%;
+    margin-top: 0%;
+    padding-right: 14vw;
+  }
+  .nav {
+    width: 100%;
+    margin-top: 0vh;
+    margin-right: -87px;
+    background-color: white;
+    padding: 11px;
+    padding-left: 14vw;
+    padding-right: 10vw;
+  }
+  .content {
+    width: 215%;
+    margin-left: 0%;
+    padding-bottom: 40vh;
+    padding-right: 12vw;
+  }
+  #headshot {
+    width: 250px;
+    height: 300px;
+    margin-top: 8px;
+    margin-left: 37vw;
+    position: absolute;
+    z-index: 1;
+    display: block;
+  }
+  h2 {
+    font-size: 120%;
+    margin-top: 53vh;
+    margin-right: -4vw;
+    display: block;
+  }
+  }
+  #about-me p {
+    font-size: 85%;
+    margin-left: 20vw;
+  }
+  footer {
+    margin-top: 0%;
+    width: 133vw;
+    padding: 9%;
+  }
+  footer div {
+    margin-left: 10vw;
+  }
