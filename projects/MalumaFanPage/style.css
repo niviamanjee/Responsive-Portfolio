@@ -1,0 +1,13 @@
+h1, h2, h3 {
+    text-align: center;
+}
+h2 {
+    color: blue;
+    font-family: cursive;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
+

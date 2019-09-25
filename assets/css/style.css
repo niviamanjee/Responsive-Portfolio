@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* End of CSS reset and beginning of styling */
+
+/* Basic format of each page */
+
+.layer1 {
+  width: 100vw;
+}
+.layer2 {
+  width: 63vw;
+}
+
+body {
+  background: url("../images/Importance-of-Background-Design-pic.jpg");
+}
+header {
+  border-color: #cccccc;
+  background-color: #ffffff;
+  width: 100vw;
+}
+.name-logo {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 200%;
+  color: white;
+  background-color: #1C2833;
+  padding:2%;
+  width: 23%;
+  height: 5%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+h1 {
+  margin-left: 5vh;
+}
+
+.nav {
+  color: #777777;
+  display: inline;
+  float: right;
+  margin-left: 66%;
+  margin-top: -29px;
+  margin-right: 10%;
+  text-align: center;
+  width: 30vw;
+}
+
+.nav a {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 130%;
+  color:  #1C2833;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+h2 {
+  color: black;
+  font-family: 'Courgette', cursive;
+  font-size: 200%;
+  margin: 3%;
+  text-align: center;
+  margin-top: 10%;
+  margin-right: 0%;
+}
+
+footer {
+  margin-top: 309px;
+  background-color: #1C2833;
+  padding: 3%;
+  width: 100vw;
+  text-align: center;
+}
+
+footer div {
+  text-align: center;
+  color: white;
+  margin-right: 10vw;
+}
+
+
+/* End of basic layout and beginning of About Me page specifics */
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+    background-color: #ffffff;
+    border-color: 3px solid #dddddd;
+    position: relative;
+    margin-top: 30px;
+    padding: 5px;
+  
+}
+#headshot {
+    height: 400px;
+    width: 350px;
+    border: 3px solid #34495E;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-left: 5%;
+
+}
+.content {
+  margin-right: 20vw;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  width: 78vw;
+  height: 75vh;
+  margin-left: 16%;
+}
+.content p {
+    width: 75%;
+    text-align: center;
+    display: inline;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 120%;
+    left: -30%;
+    bottom: -10%;  
+    margin-left: 10%;
+}
+
+/* End of "About Me" page specifics and beginning of "Contact" page specifics */
+
+.main-box {
+  margin-left: 10vw;
+  width: 78vw;
+  height: 80vh;
+  border: 1px solid black;
+}
+.contact-content {
+  background-color: #ffffff;
+  border-color: 3px solid #dddddd;
+  margin-top: 5px;
+  margin-left: 1vw;
+  width: 75vw;
+  height: 60vh;
+
+}
+.contact-box {
+    Height: 60vh;
+    Width: 71vw;
+    margin-left: 12vw;
+    margin-right: 33.3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box h2 {
+  margin-right: 15vw;
+  margin-left: 0vw;
+  border-bottom: 3px solid grey;
+  width: 76vw;
+  height: 10vh;
+  margin-top: 7vh;
+  margin-bottom: 9vh;
+}
+#name, #email {
+  width: 50vw;
+  margin-bottom: 50px;
+  margin-right: 10vw;
+}
+
+#message {
+  width: 50vw;
+  height: 100px; 
+  margin-right: 10vw;
+}
+
+.button {
+  width: 100px;
+  margin-top: 5vh;
+}
+
+/* End of "Contact" page specifics and beginning of "Portfolio" page specifics */
+
+.row {
+  width: 50vw;
+  margin: 8px -16px;
+  width: 73vw;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.p-content1, .p-content2, 
+.p-content3 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+  padding-bottom: 3vh;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 110%;
+  font-weight: bold;
+  color: black;
+  width: 20vw;
+  height: 20vh;
+}
+.row a {
+  text-decoration: none;
+}
+
+.p-content1 {
+  margin-left: 3vw;
+  
+}
+#catandmouse {
+  width: 20vw;
+  height: 20vh;
+}
+
+.p-content2 {
+  margin-left: 11vw;
+}
+#malumapic {
+  width: 18vw;
+  height: 20vh;
+}
+.p-content3 {
+  margin-left: 18vw;
+}
+#changingbox {
+  width: 18vw;
+  height: 20vh;
+}
